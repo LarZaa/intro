@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nattakorn</title>
+</head>
+<body>
+    Nattakorn Somsrichai
+    <form action="process_form.php" method="POST">
+        <label for="name">ชื่อ:</label>
+        <input type="text" id="name" name="name" required><br><br>
+      
+        <label for="email">อีเมล:</label>
+        <input type="email" id="email" name="email" required><br><br>
+      
+        <label for="phone">เบอร์โทรศัพท์:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+      
+        <label for="birthdate">วันเกิด:</label>
+        <input type="date" id="birthdate" name="birthdate" required><br><br>
+      
+        <label for="gender">เพศ:</label>
+        <select id="gender" name="gender" required>
+          <option value="">-- เลือกเพศ --</option>
+          <option value="male">ชาย</option>
+          <option value="female">หญิง</option>
+          <option value="other">อื่นๆ</option>
+        </select><br><br>
+      
+        <input type="submit" value="ส่งข้อมูล">
+      </form>
+</body>
+</html>
